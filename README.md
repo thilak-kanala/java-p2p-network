@@ -14,31 +14,32 @@ The compilation of the code and starting of peer is standard.
 
 - Upload the code directory to the remote server via *Filezilla*
 
-> `ssh gator_id@storm.cise.ufl.edu`
+ `ssh gator_id@storm.cise.ufl.edu`
 
 - Compile the code
 
-> `javac PeerProcess.java`
+ `javac PeerProcess.java`
 
 
 - Connect to different machines (on different terminal windows) from within the remote CISE machine for different peers by SSHing into the appropriate machine mentioned in the `PeerInfo.cfg`
 
->`ssh gator_id@lin114-01`  
->`ssh gator_id@lin114-02`   
->`ssh gator_id@lin114-03`   
->`ssh gator_id@lin114-04`   
->`ssh gator_id@lin114-05`   
->`ssh gator_id@lin114-07`
+`ssh gator_id@lin114-01`  
+`ssh gator_id@lin114-02`   
+`ssh gator_id@lin114-03`   
+`ssh gator_id@lin114-04`   
+`ssh gator_id@lin114-05`   
+`ssh gator_id@lin114-07`
 
 - Start the remote peers on the different machine (terminals)
 
->`java PeerProcess 1001`  
->`java PeerProcess 1002`   
->`java PeerProcess 1003`   
->`java PeerProcess 1004`   
->`java PeerProcess 1005`   
->`java PeerProcess 1006`
+`java PeerProcess 1001`  
+`java PeerProcess 1002`   
+`java PeerProcess 1003`   
+`java PeerProcess 1004`   
+`java PeerProcess 1005`   
+`java PeerProcess 1006`
 
 The code will execute, generate logs, log files, and save the pieces of the trasnferred file in appropirate directories
 
+---
 > Project associated with University of Florida, Gainesville
